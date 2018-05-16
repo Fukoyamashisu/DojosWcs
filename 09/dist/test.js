@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Currency_1 = require("./Currency");
+const CurrencyConvert_1 = require("./CurrencyConvert");
+const amount = new Currency_1.Currency(40, "€");
+console.log(amount.toString());
+const convert = new CurrencyConvert_1.CurrencyConvert("232.75");
+convert.data = "232.75";
+console.log(convert);
+console.log(convert.converted);

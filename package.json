@@ -1,0 +1,22 @@
+{
+  "name": "dojos",
+  "version": "1.0.0",
+  "description": "Wild Code School Dojo on Algorithms",
+  "scripts": {
+    "test": "mocha **/*.test.js --reporter dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fukoyamashisu/DojosWcs"
+  },
+  "keywords": [],
+  "author": "Yann Schmidt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fukoyamashisu/DojosWcs/issues"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2"
+  },
+  "dependencies": {}
+}
